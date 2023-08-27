@@ -1,120 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gym</title>
-  <style>
-        body{
-            background-image: url(background_image.jpeg);
-            background-attachment: fixed;
-            background-repeat:no-repeat;
-            background-size: cover;
-            display: flex;
-            flex-wrap: wrap;
-
-        }
-        th{
-            color: whitesmoke;
-            font-weight: 400;
-            font-size: 20px;
-        }
-        .main{
-            height: 600px;
-            width: 800px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin: auto;
-            color: whitesmoke;
-            
-        }
-        .plan{
-            height:400px;
-            width: 250px;
-            margin: auto;
-            background: rgba(131, 126, 126, 0.4);
-            backdrop-filter: blur(8px);
-            transition: 600ms;
-
-        }
-        .plan:hover{
-          transform: scale(1.2);
-          transition: 600ms;
-        }
-        h1{
-            text-align: center;;
-        }
-        pre{
-            text-align: left;
-            font-size: 16px;
-        }
-        
-        .sign_up{
-            text-align: center;
-            border: 2px solid none;
-            width: 100px;
-            padding: 6px;
-            justify-content: center;
-            background-color: grey;
-            margin: auto;
-        }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basic</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <table style="width:100%;">
-    <tr>
-      <th>Home</th>
-      <th>Our Plans</th>
-      <th>About us</th>
-      <th>Our contact</th>
-    </tr>
-  </table>
-  <div class="main">
-    <div class="plan">
-      <h1>Classic</h1>
-      <p>
-        <pre>
- 3 Month Plan        $10.99
- 6 Month Plan        $20.99
- 9 Month Plan        $30.99
- 1 Year Plan         $39.99 
-
+    <div id="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="Lago di Braies">
+            <div class="card__details">
+                <span class="tag">Nature</span>
+                <span class="tag">Lake</span>
+    
+                <div class="name">Lago di Braies</div>
+    
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, iure autem. Distinctio cum quos ad nobis magni quia saepe fugit quas dolor soluta alias minima dolores perferendis laboriosam, sunt ipsa.</p>
+    
+                <button>Read More</button>
+            </div>
             
- Access Gym at any time   ✗
- Personal Trainer         ✗
- Bring Guest at any time  ✗
- Access to Gym bathroom   ✓
- Access to Gym locker     ✓
- Trainer help             ✓
-        </pre>
-      </p>
-      <p class="sign_up">
-        Sign Up
-      </p>
+        </div>
     </div>
-    <div class="plan">
-      <h1>Pro</h1>
-      <p>
-        <pre>
- 3 Month Plan        $20.99
- 6 Month Plan        $40.99
- 9 Month Plan        $80.99
- 1 Year Plan         $90.99 
-           
-                       
- Access Gym at any time   ✓ 
- Personal Trainer         ✓ 
- Bring Guest at any time  ✓ 
- Access to Gym bathroom   ✓
- Access to Gym locker     ✓
- Trainer help             ✓ 
-        </pre>
-      </p>
-      <p class="sign_up">
-        Sign Up
-      </p>
-    </div>
-  </div>
 </body>
 </html>
